@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 minikube addons enable metrics-server
 
 minikube addons enable dashboard

@@ -1,11 +1,12 @@
 #!/bin/bash
 
+
 clear
 
 ./91_stop.sh
 
 NON_ROOT_USER=${1-bboros}
-echo "Uninstalling and removing minikube from system and from ${NON_ROOT_USER}"
+echo "Uninstalling and removing Minikube from system and from ${NON_ROOT_USER}"
 
 
 sudo -- sh -c <<EOF "
