@@ -1,0 +1,7 @@
+minikube addons list
+
+
+
+
+
+
