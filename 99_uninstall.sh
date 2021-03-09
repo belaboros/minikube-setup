@@ -4,6 +4,8 @@
 clear
 
 ./91_stop.sh
+minikube delete
+
 
 NON_ROOT_USER=${1-bboros}
 echo "Uninstalling and removing Minikube from system and from ${NON_ROOT_USER}"
